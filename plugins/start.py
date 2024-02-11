@@ -83,13 +83,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f"https://telegram.me/movie7xchat"), 
-                    InlineKeyboardButton('ʟᴜᴄʏ', url=f"https://t.me/Lucy_Filter_bot") 
-                ],[
-                    InlineKeyboardButton('ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ', url=f"https://telegram.me/codeflix_bots")
-                ],[
-                    InlineKeyboardButton("ᴍᴏʀᴇ ɪɴғᴏ ", callback_data = "about"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton("⚡️ ʜᴇʟᴘ", callback_data = "about"),
+                    InlineKeyboardButton(text="🍁ᴀɴɪᴍᴇ ɴᴀᴛɪᴏɴ", url=https://t.me/Aniimes_Nation)
                 ]
             ]
                 )
